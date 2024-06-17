@@ -27,6 +27,7 @@ AWS Lambda: Automates the file transfer process.
 AWS CLI: Facilitates file uploads from the local machine.
 
 
+
 Steps to Implement the Project:
 
 
@@ -45,4 +46,4 @@ Test the lambda Function
 aws s3 cp local_path s3://bucke_Name_Folder --recursive
 
 
-Set Up Lifecycle Rules
+Set Up Lifecycle Rules.
