@@ -28,9 +28,15 @@ AWS CLI: Facilitates file uploads from the local machine.
 Steps to Implement the Project
 
 Create an S3 Bucket and enable S3 versoning
+
 Create IAM Role for Lambda
+
 Create a IAM Function
+
 Configure Function code
+
 Set up IAM Role Permissions
+
 Test the lambda Function
+
 Set Up Lifecycle Rules
