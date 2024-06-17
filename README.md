@@ -21,11 +21,13 @@ Basic understanding of AWS services (S3, Lambda, IAM)
 Architecture
 
 AWS S3: Used for storing files and managing backups with versioning and lifecycle rules.
+
 AWS Lambda: Automates the file transfer process.
 AWS CLI: Facilitates file uploads from the local machine.
 
 
-Steps to Implement the Project
+Steps to Implement the Project:
+
 
 Create an S3 Bucket and enable S3 versoning
 
