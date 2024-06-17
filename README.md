@@ -4,21 +4,21 @@
 This repository contains code and documentation for an automated file transfer and backup system using AWS Lambda and S3. It automates the process of uploading files from a local directory to an S3 bucket, implements backup strategies with versioning, and manages file lifecycle using S3 lifecycle rules.
 
 
-Objectives
+Objectives:
 
 Automate File Transfers: Upload files from a local machine to an AWS S3 bucket using AWS CLI.
 Implement Backup Strategy: Enable S3 versioning to maintain backup copies of files.
 Lifecycle Management: Set up S3 lifecycle rules to archive and delete files based on a specified policy.
 
 
-Prerequisites
+Prerequisites:
 
 AWS account
 AWS CLI installed and configured
 Basic understanding of AWS services (S3, Lambda, IAM)
 
 
-Architecture
+Architecture:
 
 AWS S3: Used for storing files and managing backups with versioning and lifecycle rules.
 
@@ -41,5 +41,8 @@ Configure Function code
 Set up IAM Role Permissions
 
 Test the lambda Function
+
+aws s3 cp local_path s3://bucke_Name_Folder --recursive
+
 
 Set Up Lifecycle Rules
