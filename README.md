@@ -23,6 +23,7 @@ Architecture
 AWS S3: Used for storing files and managing backups with versioning and lifecycle rules.
 
 AWS Lambda: Automates the file transfer process.
+
 AWS CLI: Facilitates file uploads from the local machine.
 
 
